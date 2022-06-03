@@ -1,5 +1,5 @@
-package BasicProgram;
 // program to calculate gross salary depending on the basic salary
+package BasicProgram;
 import java.util.Scanner;
 public class SalaryCalculator {
     double gross,hra,da; // variables declaration in method
