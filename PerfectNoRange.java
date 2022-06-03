@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class PerfectNoRange { // method creation
     public void findPerfectNo(int no){
         int i,j,count; // variables declaration in method
-        for (i=1;i<=no;i++){
+        for (i=1;i<=no;i++){ // outer for loop for providing the number from 1 to user given range
             count=0;
-            for(j=1;j<i;j++){
+            for(j=1;j<i;j++){ // inner for loop for checking perfect number condition
                 if(i%j==0)
                     count=count+j;
             }
