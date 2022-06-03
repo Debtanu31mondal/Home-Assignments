@@ -1,5 +1,5 @@
-package BasicProgram;
 // program to find profit or loss on costprice and sellingprice
+package BasicProgram;
 import java.util.Scanner;
 public class ProfitLoss { //method creaton
     public void findProfitloss(int cost,int sell)
